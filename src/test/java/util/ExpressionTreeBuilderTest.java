@@ -68,16 +68,16 @@ public class ExpressionTreeBuilderTest {
             new ExpressionTestCase("2/(3)", "2/3"),
             new ExpressionTestCase("2/(3/7)", "2/(3/7)"),
             
-            new TestCase("2/(3)", "2/3"),
-            new TestCase("(5)/(6)", "5/6"),
-            new TestCase("(2*(3+4)*5)/6", "2*(3+4)*5/6"),
-            new TestCase("(-5)/7", "-5/7"),
-            new TestCase("(-5)*7", "-5*7"),
-            new TestCase("(2 + 2) * 1", "(2 + 2) * 1"),
-            new TestCase("1+(-1)", "1+(-1)"),
-            new TestCase("5*(-3)", "5*-3"),
-            new TestCase("((2*((2+3)-(4*6))+(8+(7*4))))", "2*(2+3-4*6)+8+7*4"),
-            new TestCase("((2*((2*3)-(4+6))+(8+(7*4))))", "2*(2*3-(4+6))+8+7*4")
+            new ExpressionTestCase("2/(3)", "2/3"),
+            new ExpressionTestCase("(5)/(6)", "5/6"),
+            new ExpressionTestCase("(2*(3+4)*5)/6", "2*(3+4)*5/6"),
+            new ExpressionTestCase("(-5)/7", "-5/7"),
+            new ExpressionTestCase("(-5)*7", "-5*7"),
+            new ExpressionTestCase("(2 + 2) * 1", "(2 + 2) * 1"),
+            new ExpressionTestCase("1+(-1)", "1+(-1)"),
+            new ExpressionTestCase("5*(-3)", "5*-3"),
+            new ExpressionTestCase("((2*((2+3)-(4*6))+(8+(7*4))))", "2*(2+3-4*6)+8+7*4"),
+            new ExpressionTestCase("((2*((2*3)-(4+6))+(8+(7*4))))", "2*(2*3-(4+6))+8+7*4")
         );
     }
 
