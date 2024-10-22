@@ -16,7 +16,7 @@ public class ExpressionTreeBuilderTest {
             // cases, from jamesnew ExpressionTestCase("1", "1"),
 new ExpressionTestCase("1+2", "1+2"),
 new ExpressionTestCase("(1+(2))", "1+2"),
-new ExpressionTestCase("(1+(2))", "1+(2)"),
+
 new ExpressionTestCase("2-(2+3)", "2-(2+3)"),
 new ExpressionTestCase("-2-(2+3)", "-2-(2+3)"),
 new ExpressionTestCase("-(2+3)", "-(2+3)"),
